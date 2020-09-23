@@ -367,7 +367,7 @@ Public Function NetError(nErr As Long, Optional Ret) As String
         Case 1722
             Msg = "Server not accessible!"
         Case 1326
-            Msg = " Sie besitzen nicht die Berechtigungen dafür"
+            Msg = " Sie besitzen nicht die Berechtigungen dafÃ¼r"
         Case Else
             Msg = "Error Nr. (" & nErr & ") !"
     End Select
